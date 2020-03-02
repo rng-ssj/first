@@ -27,7 +27,7 @@ public class MyDButils {
 		try {
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/manager?useUnicode=true&characterEncoding=UTF-8", 
-					"root", "tao200018");
+					"root", "1234");
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
